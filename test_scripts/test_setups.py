@@ -100,7 +100,7 @@ class TestPhase(Enum):
 
 supported_instruments = ['kast', 'deimos', 'kcwi', 'nires', 'nirspec', 'mosfire', 'lris', 'xshooter', 'gnirs', 'gmos',
                          'flamingos2', 'mage', 'fire', 'luci', 'mdm', 'alfosc', 'fors2', 'binospec', 'mmirs', 'mods',
-                         'dbsp', 'tspec']
+                         'dbsp', 'tspec', 'bcs']
 
 
 develop_setups = {'shane_kast_blue': ['452_3306_d57', '600_4310_d55', '830_3460_d46'],
@@ -127,6 +127,7 @@ develop_setups = {'shane_kast_blue': ['452_3306_d57', '600_4310_d55', '830_3460_
                   'magellan_mage': ['1x1'],
                   'magellan_fire': ['FIRE_Echelle', 'FIRE_Long'],
                   'mdm_osmos': ['MDM4K'],
+                  'mmt_bcs': ['300l'],
                   'mmt_binospec': ['Longslit_G600', 'Multislit_G270'],
                   'mmt_mmirs': ['HK_zJ', 'J_zJ', 'K_K'],
                   'not_alfosc': ['grism4', 'grism19'],
